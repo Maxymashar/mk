@@ -1,0 +1,21 @@
+{
+  "name": "mk",
+  "version": "1.0.0",
+  "description": "A utility for creating files and directories",
+  "main": "build/app.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "start": "tsc ; node ."
+  },
+  "bin": {
+    "mk": "build/app.js"
+  },
+  "author": "Maxwell Masharia",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.6"
+  },
+  "dependencies": {
+    "commander": "^6.2.0"
+  }
+}
